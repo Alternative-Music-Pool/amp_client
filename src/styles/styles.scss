@@ -1,4 +1,15 @@
 * {
   box-sizing: border-box;
-  background-color: red;
+}
+
+.banner-wrapper {
+  background-image: url("../assets/ampbackground.jpg");
+  height: 810px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: transparent;
+}
+
+.banner-header {
+  color: white;
 }

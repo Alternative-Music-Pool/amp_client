@@ -6,7 +6,7 @@ import HomePage from './home/HomePage'
 class App extends Component {
   render() {
     return (
-      <div className="wrapper container-fluid">
+      <div className="wrapper">
         <HomePage />
       </div>
     )

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+$main-font-family: 'Raleway';
+$header-font-color: #fffafa;
+
+.banner-wrapper {
+  background-image: url("../assets/ampbackground.jpg");
+  height: 810px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: transparent;
+}
+
+.banner-wrapper {
+  .banner-header {
+    color: $header-font-color;
+    padding-top: 50%;
+    transform: translateY(-50%);
+    font-family: $main-font-family, serif;
+  }
+}

@@ -2,22 +2,46 @@
   box-sizing: border-box;
 }
 
-$main-font-family: 'Raleway';
+$header-font-family: 'Raleway';
+$bebasFont: 'Bebas';
+$questrialFont: 'Questrial';
 $header-font-color: #fffafa;
 
-.banner-wrapper {
+.banner-wrap {
   background-image: url("../assets/ampbackground.jpg");
-  height: 810px;
+  height: 710px;
   background-repeat: no-repeat;
   background-size:cover;
   background-color: transparent;
 }
 
-.banner-wrapper {
-  .banner-header {
+.banner-wrap {
+  .header-banner {
     color: $header-font-color;
     padding-top: 50%;
     transform: translateY(-50%);
-    font-family: $main-font-family, serif;
+    font-family: $bebasFont, $header-font-family, serif;
+    letter-spacing: 1px;
+    h1 {
+        font-size: 3.5rem;
+    }
+    .banner-sub-header{
+      padding-top: 100px;
+      font-family: $questrialFont, serif;
+    }
+  }
+}
+
+.footer-wrapper {
+  height: 200px;
+  font-size: 2rem;
+  background-color: #232323;
+}
+
+.main-wrapper {
+  height: 300px;
+  font-size: 2rem;
+  .main-header {
+    line-height: 300px;
   }
 }

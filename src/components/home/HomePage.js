@@ -6,7 +6,7 @@ import Footer from './footer'
 class HomePage extends Component {
   render() {
     return (
-      <div>
+      <div className="homePage">
         <Banner />
         <Main />
         <Footer />

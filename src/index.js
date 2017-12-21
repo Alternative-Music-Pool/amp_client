@@ -4,6 +4,7 @@ import { render } from 'react-dom'
 import App from './components/App'
 import './styles/styles.scss'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import './styles/homePage.scss'
 
 render (
   <App />,
